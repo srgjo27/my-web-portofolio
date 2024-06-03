@@ -99,6 +99,10 @@ export const Skills = () => {
                                     <img src="https://img.icons8.com/color/96/000000/firebase.png" alt="" />
                                     <h5>Firebase</h5>
                                 </div>
+                                <div className="item">
+                                    <img src="https://img.icons8.com/color/96/000000/sql.png" alt="" />
+                                    <h5>SQL</h5>
+                                </div>
                             </Carousel>
                         </div>
                     </Col>

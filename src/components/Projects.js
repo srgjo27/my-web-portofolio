@@ -1,55 +1,12 @@
 import { Col, Container, Row, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/project-img4.jpeg";
-import projImg5 from "../assets/img/project-img5.jpeg";
-import projImg6 from "../assets/img/project-img6.jpeg";
+import project_model from "../model/Projects";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
-
-    const projects = [
-        {
-            title: "Website  Pemandian Air Soda Taurutung",
-            description: "",
-            imgUrl: projImg1,
-            url: "https://github.com/srgjo27/air-soda--tarutung-website",
-        },
-        {
-            title: "IT Del Canteen Website",
-            description: "",
-            imgUrl: projImg2,
-            url: "https://github.com/srgjo27/Canteen-IT-Del-Website",
-        },
-        {
-            title: "LokerKu Website",
-            description: "",
-            imgUrl: projImg3,
-            url: "https://github.com/srgjo27/LokerKu",
-        },
-        {
-            title: "SIRAM",
-            description: "Mobile Application",
-            imgUrl: projImg4,
-            url: "",
-        },
-        {
-            title: "Delhub Mobile-Based Application",
-            description: "",
-            imgUrl: projImg5,
-            url: "https://github.com/marloxxx/delhub",
-        },
-        {
-            title: "Ito Humbang",
-            description: "Mobile Application",
-            imgUrl: projImg6,
-            url: "",
-        }
-    ]
+    const { projects1, projects2 } = project_model;
 
     return (
         <section className="project" id="projects">
@@ -79,7 +36,7 @@ export const Projects = () => {
                                             <Tab.Pane eventKey="first">
                                                 <Row>
                                                     {
-                                                        projects.map((project, index) => {
+                                                        projects1.map((project, index) => {
                                                             return (
                                                                 <ProjectCard key={index}{...project} />
                                                             )
@@ -88,7 +45,15 @@ export const Projects = () => {
                                                 </Row>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="second">
-                                                <p>Two</p>
+                                                <Row>
+                                                    {
+                                                        projects2.map((project, index) => {
+                                                            return (
+                                                                <ProjectCard key={index}{...project} />
+                                                            )
+                                                        })
+                                                    }
+                                                </Row>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="third">
                                                 <p>Three</p>
