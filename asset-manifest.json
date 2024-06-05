@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/my-web-portofolio/static/css/main.9d9ffb73.css",
-    "main.js": "/my-web-portofolio/static/js/main.705af2a6.js",
+    "main.css": "/my-web-portofolio/static/css/main.1ad501ff.css",
+    "main.js": "/my-web-portofolio/static/js/main.d43a2959.js",
     "static/js/453.a683488f.chunk.js": "/my-web-portofolio/static/js/453.a683488f.chunk.js",
     "static/media/project-img1.png": "/my-web-portofolio/static/media/project-img1.a297b1251845de41cc05.png",
     "static/media/color-sharp.png": "/my-web-portofolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/my-web-portofolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/Institut Teknologi Del.png": "/my-web-portofolio/static/media/Institut Teknologi Del.628d1d1ed1695f96ed50.png",
     "static/media/CV-Backend Developer_Josua Siregar.pdf": "/my-web-portofolio/static/media/CV-Backend Developer_Josua Siregar.8ea09ca607cadd648125.pdf",
     "static/media/project-img2.png": "/my-web-portofolio/static/media/project-img2.459859ad195648f727d1.png",
     "static/media/project-img3.png": "/my-web-portofolio/static/media/project-img3.90f8a01a2c571765e5c4.png",
@@ -18,6 +19,7 @@
     "static/media/project-img6.jpeg": "/my-web-portofolio/static/media/project-img6.ff281306ea2f19332228.jpeg",
     "static/media/project-img4.jpeg": "/my-web-portofolio/static/media/project-img4.9dce6cf49ab57885108f.jpeg",
     "static/media/project-img5.jpeg": "/my-web-portofolio/static/media/project-img5.3f69e154528d78f0f46e.jpeg",
+    "static/media/AirAsia.png": "/my-web-portofolio/static/media/AirAsia.5bc8205491ef39097727.png",
     "static/media/contact-img.svg": "/my-web-portofolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/revicons.eot": "/my-web-portofolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/my-web-portofolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -26,12 +28,12 @@
     "static/media/nav-icon4.svg": "/my-web-portofolio/static/media/nav-icon4.fa10bb0702d242a28274efd2e9da5242.svg",
     "static/media/nav-icon1.svg": "/my-web-portofolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/my-web-portofolio/index.html",
-    "main.9d9ffb73.css.map": "/my-web-portofolio/static/css/main.9d9ffb73.css.map",
-    "main.705af2a6.js.map": "/my-web-portofolio/static/js/main.705af2a6.js.map",
+    "main.1ad501ff.css.map": "/my-web-portofolio/static/css/main.1ad501ff.css.map",
+    "main.d43a2959.js.map": "/my-web-portofolio/static/js/main.d43a2959.js.map",
     "453.a683488f.chunk.js.map": "/my-web-portofolio/static/js/453.a683488f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d9ffb73.css",
-    "static/js/main.705af2a6.js"
+    "static/css/main.1ad501ff.css",
+    "static/js/main.d43a2959.js"
   ]
 }
