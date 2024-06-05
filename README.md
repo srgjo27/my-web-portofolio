@@ -30,6 +30,7 @@ git clone https://github.com/[username]/[repo].git
 cd [repo]
 npm install
 npm start
+npm run deploy
 ```
 
 Replace [username] with your GitHub username and [repo] with the name of the repository.
