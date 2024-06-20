@@ -4,7 +4,7 @@ import { ArrowRightCircle, FileEarmarkPdf } from "react-bootstrap-icons";
 import profileImg from "../assets/img/josua-siregar.png";
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
-import cvFile from "../assets/files/CV-Backend Developer_Josua Siregar.pdf";
+import cvFile from "../assets/files/CV_Josua Siregar.pdf";
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -58,9 +58,7 @@ export const Banner = () => {
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className="tagline">Welcome to my Portofolio</span>
                                     <h1>{'Hi I\'m Josua Siregar'}<br /><span className="wrap"> {text}</span></h1>
-                                    <p> As an experienced back-end engineer, my responsibilities include designing, developing, and maintaining the back end of web and mobile applications. I ensure seamless integration between the front and back end and actively participate in project development.<br /><br />
-                                        With strong skills in back-end programming languages such as JavaScript (Node.js), PHP, Java, Python, Dart, and Golang, as well as extensive experience with frameworks such as Laravel, I can make significant contributions to project development. In addition, I also have experience in front-end development using Flutter and React JS, as well as in database management using SQL and Firebase.<br /><br />
-                                        I prioritize applying best practices in software development, including creating scalable and efficient systems, effective database management, and rigorous testing. Through my commitment to quality, I have delivered reliable back-end solutions, improved overall system performance, and provided positive user experiences.</p>
+                                    <p> I am Josua Siregar, a final year Information Technology student at Del Institute of Technology with a career as a Back-End Engineer. During my studies, I have contributed to various software development projects, including my final project on Product Recommendation for an e-commerce website, where I served as the lead developer. I designed and developed a recommendation system integrated with front-end and back-end, using Python for data preprocessing and building recommendation algorithm models. By mastering the back-end programming of Node.js, PHP, Java, Go and Laravel frameworks, as well as React JS framework and SQL database management, I managed to achieve error evaluation using MAE and RMSE below 1, improving the accuracy of product recommendations for users. My expertise includes scalable system design, optimal algorithm implementation, effective database management, and rigorous testing, all contributing to improved system performance and better user experience.</p>
                                     {/* <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button> */}
                                     <button className="vvd">Download CV
                                         <a href={cvFile} download>

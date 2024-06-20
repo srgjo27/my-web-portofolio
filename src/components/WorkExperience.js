@@ -8,7 +8,7 @@ export const WorkExperience = () => {
     const experiences = model_experiences;
 
     return (
-        <Container className="my-5">
+        <Container className="my-5 experience">
             <h2 className="text-center text-light pb-3">Experiences</h2>
             <Row>
                 {experiences.map((experience, index) => (

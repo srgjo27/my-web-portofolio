@@ -400,6 +400,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Work Experience Css ************/
+.experience h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
 .experience-card {
   transition: transform 0.3s, box-shadow 0.3s;
 }
