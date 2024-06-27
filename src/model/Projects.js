@@ -4,8 +4,22 @@ import projImg3 from '../assets/img/project-img3.png';
 import projImg4 from '../assets/img/project-img4.jpeg';
 import projImg5 from '../assets/img/project-img5.jpeg';
 import projImg6 from '../assets/img/project-img6.jpeg';
+import projImg7 from '../assets/img/project-img7.png';
+import projImg8 from '../assets/img/project-img8.jpeg';
 
 const projects1 = [
+    {
+        title: "AIRMASTER",
+        description: "Mobile Application",
+        imgUrl: projImg8,
+        url: ""
+    },
+    {
+        title: "UD ANTHONY",
+        description: "Web Application",
+        imgUrl: projImg7,
+        url: "https://ud-anthony.vpnstores.net/",
+    },
     {
         title: "SIRAM",
         description: "Mobile Application",

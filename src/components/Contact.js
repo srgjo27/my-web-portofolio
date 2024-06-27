@@ -1,106 +1,47 @@
-import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import React from "react";
+import { Col, Container, Row, Button } from "react-bootstrap";
+import { Whatsapp, Telegram, Envelope } from "react-bootstrap-icons";
+import contactImg from "../assets/img/josua-siregar.jpg";
 
 export const Contact = () => {
-    const formInitialDetails = {
-        firstName: '',
-        lastName: '',
-        email: '',
-        phone: '',
-        message: ''
-    };
-
-    const [formDetails, setFormDetails] = useState(formInitialDetails);
-    const [buttonText, setButtonText] = useState('Send');
-    const [status, setStatus] = useState({});
-
-    const onFormUpdate = (category, value) => {
-        setFormDetails({
-            ...formDetails,
-            [category]: value
-        });
-    };
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setButtonText("Sending...");
-        let response = await fetch("http://localhost:5000/contact", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json;charset=utf-8",
-            },
-            body: JSON.stringify(formDetails),
-        });
-        setButtonText("Send");
-        let result = await response.json();
-        setFormDetails(formInitialDetails);
-        if (result.code === 200) {
-            setStatus({ success: true, message: 'Message sent successfully' });
-        } else {
-            setStatus({ success: false, message: 'Something went wrong, please try again later.' });
-        }
-    };
+    const whatsappNumber = "+6281324773927";
+    const telegramUsername = "yourtelegramusernam"; 
+    const emailAddress = "josuasiregar0103@gmail.com"; 
 
     return (
         <section className="contact" id="connect">
             <Container>
                 <Row className="align-items-center">
                     <Col md={6}>
-                        <img src={contactImg} alt="Contact Us" />
+                        <img src={contactImg} alt="Contact Us" className="contact-img" />
                     </Col>
                     <Col md={6}>
-                        <h2>Get In Touch</h2>
-                        <form onSubmit={handleSubmit}>
-                            <Row>
-                                <Col size={12} sm={6} className="px-1">
-                                    <input
-                                        type="text"
-                                        value={formDetails.firstName}
-                                        placeholder="First Name"
-                                        onChange={(e) => onFormUpdate('firstName', e.target.value)}
-                                    />
-                                </Col>
-                                <Col size={12} sm={6} className="px-1">
-                                    <input
-                                        type="text"
-                                        value={formDetails.lastName}
-                                        placeholder="Last Name"
-                                        onChange={(e) => onFormUpdate('lastName', e.target.value)}
-                                    />
-                                </Col>
-                                <Col size={12} sm={6} className="px-1">
-                                    <input
-                                        type="email"
-                                        value={formDetails.email}
-                                        placeholder="Email Address"
-                                        onChange={(e) => onFormUpdate('email', e.target.value)}
-                                    />
-                                </Col>
-                                <Col size={12} sm={6} className="px-1">
-                                    <input
-                                        type="tel"
-                                        value={formDetails.phone}
-                                        placeholder="Phone No."
-                                        onChange={(e) => onFormUpdate('phone', e.target.value)}
-                                    />
-                                </Col>
-                                <Col size={12} className="px-1">
-                                    <textarea
-                                        rows="6"
-                                        value={formDetails.message}
-                                        placeholder="Message"
-                                        onChange={(e) => onFormUpdate('message', e.target.value)}
-                                    ></textarea>
-                                    <button type="submit"><span>{buttonText}</span></button>
-                                </Col>
-                                {status.message && (
-                                    <Col>
-                                        <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
-                                    </Col>
-                                )}
-                            </Row>
-                        </form>
+                        <h3>Say, Hi! 👋</h3>
+                        <p>If you have any questions or just want to connect, feel free to reach out to me on WhatsApp, Telegram, or Email. I'm always happy to chat and help out in any way I can!</p>
+                        <p>Click the buttons below to start a conversation:</p>
+                        <div className="button-group">
+                            <Button
+                                href={`https://wa.me/${whatsappNumber}`}
+                                target="_blank"
+                                className="contact-btn whatsapp-btn"
+                            >
+                                <Whatsapp size={20} /> Connect on WhatsApp
+                            </Button>
+                            <Button
+                                href={`https://t.me/${telegramUsername}`}
+                                target="_blank"
+                                className="contact-btn telegram-btn"
+                            >
+                                <Telegram size={20} /> Connect on Telegram
+                            </Button>
+                            <Button
+                                href={`mailto:${emailAddress}`}
+                                target="_blank"
+                                className="contact-btn email-btn"
+                            >
+                                <Envelope size={20} /> Send an Email
+                            </Button>
+                        </div>
                     </Col>
                 </Row>
             </Container>

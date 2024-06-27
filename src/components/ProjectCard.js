@@ -4,10 +4,10 @@ export const ProjectCard = ({ title, description, imgUrl, url }) => {
     return (
         <Col sm={6} md={4}>
             <div className="proj-imgbx">
-                <img src={imgUrl} alt="" style={{ width: '100%', height: '50%' }} />
+                <img src={imgUrl} alt="" className="project-image" />
                 <div className="proj-txtx">
                     <h4>{title}</h4>
-                    <span>{description}</span>
+                    <span>{description}</span><br />
                     <span>{url}</span>
                 </div>
             </div>

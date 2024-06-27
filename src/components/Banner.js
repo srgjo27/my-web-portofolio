@@ -60,7 +60,7 @@ export const Banner = () => {
                                     <h1>{'Hi I\'m Josua Siregar'}<br /><span className="wrap"> {text}</span></h1>
                                     <p> I am Josua Siregar, a final year Information Technology student at Del Institute of Technology with a career as a Back-End Engineer. During my studies, I have contributed to various software development projects, including my final project on Product Recommendation for an e-commerce website, where I served as the lead developer. I designed and developed a recommendation system integrated with front-end and back-end, using Python for data preprocessing and building recommendation algorithm models. By mastering the back-end programming of Node.js, PHP, Java, Go and Laravel frameworks, as well as React JS framework and SQL database management, I managed to achieve error evaluation using MAE and RMSE below 1, improving the accuracy of product recommendations for users. My expertise includes scalable system design, optimal algorithm implementation, effective database management, and rigorous testing, all contributing to improved system performance and better user experience.</p>
                                     {/* <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button> */}
-                                    <button className="vvd">Download CV
+                                    <button className="vvd"> Download CV
                                         <a href={cvFile} download>
                                             <FileEarmarkPdf size={25} />
                                         </a>
