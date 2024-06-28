@@ -4,7 +4,7 @@ import { ArrowRightCircle, FileEarmarkPdf } from "react-bootstrap-icons";
 import profileImg from "../assets/img/josua-siregar.png";
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
-import cvFile from "../assets/files/CV_Josua Siregar.pdf";
+import cvFile from "../assets/files/Josua Siregar.pdf";
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
