@@ -5,8 +5,8 @@ import contactImg from "../assets/img/josua-siregar.jpg";
 
 export const Contact = () => {
     const whatsappNumber = "+6281324773927";
-    const telegramUsername = "yourtelegramusernam"; 
-    const emailAddress = "josuasiregar0103@gmail.com"; 
+    const telegramUsername = "yourtelegramusernam";
+    const emailAddress = "josuasiregar0103@gmail.com";
 
     return (
         <section className="contact" id="connect">
@@ -16,7 +16,7 @@ export const Contact = () => {
                         <img src={contactImg} alt="Contact Us" className="contact-img" />
                     </Col>
                     <Col md={6}>
-                        <h3>Say, Hi! 👋</h3>
+                        <h3>Say, Hi! <span class="wave">👋</span></h3>
                         <p>If you have any questions or just want to connect, feel free to reach out to me on WhatsApp, Telegram, or Email. I'm always happy to chat and help out in any way I can!</p>
                         <p>Click the buttons below to start a conversation:</p>
                         <div className="button-group">

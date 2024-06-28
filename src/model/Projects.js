@@ -10,54 +10,118 @@ import projImg8 from '../assets/img/project-img8.jpeg';
 const projects1 = [
     {
         title: "AIRMASTER",
-        description: "Mobile Application",
         imgUrl: projImg8,
-        url: ""
+        url: "",
+        stack: [
+            'flutter',
+            'dart',
+            'firebase',
+            'rest-api',
+            'google-sheet',
+            'camera',
+            'signature',
+            'qr-code',
+            'google-account-airasia',
+            'getx',
+            'binding',
+            'provider',
+        ],
     },
     {
         title: "UD ANTHONY",
-        description: "Web Application",
         imgUrl: projImg7,
         url: "https://ud-anthony.vpnstores.net/",
+        stack: [
+            'php',
+            'laravel',
+            'mysql',
+            'rest-api',
+            'python',
+            'flask',
+            'machine-learning',
+        ],
     },
     {
         title: "SIRAM",
-        description: "Mobile Application",
         imgUrl: projImg4,
         url: "",
+        stack: [
+            'flutter',
+            'dart',
+            'rest-api',
+            'geolocator',
+            'gmaps',
+            'thermal-printer',
+            'camera',
+            'qr-code',
+        ],
     },
     {
         title: "Delhub Mobile-Based Application",
-        description: "",
         imgUrl: projImg5,
         url: "https://github.com/marloxxx/delhub",
+        stack: [
+            'flutter',
+            'dart',
+            'rest-api',
+            'laravel',
+            'firebase-messaging',
+            'binding'
+        ],
     },
     {
         title: "Ito Humbang",
-        description: "Mobile Application",
         imgUrl: projImg6,
         url: "",
+        stack: [
+            'flutter',
+            'dart',
+            'rest-api',
+            'getx',
+            'geolocator',
+            'gmaps',
+        ],
     }
 ]
 
 const projects2 = [
     {
         title: "Website  Pemandian Air Soda Taurutung",
-        description: "",
         imgUrl: projImg1,
         url: "https://github.com/srgjo27/air-soda--tarutung-website",
+        stack: [
+            'html',
+            'css',
+            'javascript',
+            'bootstrap',
+            'jquery',
+        ],
     },
     {
         title: "IT Del Canteen Website",
-        description: "",
         imgUrl: projImg2,
         url: "https://github.com/srgjo27/Canteen-IT-Del-Website",
+        stack: [
+            'laravel',
+            'php',
+            'mysql',
+            'ajax',
+            'jquery',
+            'bootstrap',
+        ],
     },
     {
         title: "LokerKu Website",
-        description: "",
         imgUrl: projImg3,
         url: "https://github.com/srgjo27/LokerKu",
+        stack: [
+            'laravel',
+            'php',
+            'mysql',
+            'ajax',
+            'jquery',
+            'bootstrap',
+        ],
     },
 ]
 

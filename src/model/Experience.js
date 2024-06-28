@@ -5,7 +5,7 @@ const experiences = [
     {
         logo: AirAsia,
         company: 'PT. Indonesia AirAsia',
-        position: 'Software Engineer',
+        position: 'Software Engineer Intership',
         date: 'Feb 2024 - Jul 2024',
         description: [
             'Developed Flight Operation Super App using Dart programming language with Flutter and Firebase as a database, which resulted in a 20-30% increase in work efficiency.',
@@ -31,7 +31,7 @@ const experiences = [
     {
         logo: '',
         company: 'Puslit EGOV CENTER',
-        position: 'Software Engineer',
+        position: 'Software Engineer Intership',
         date: 'Sep 2023 - Dec 2023',
         description: [
             'Developed Retribusi Air Minum application with a user-friendly interface resulting in a 30% increase in work efficiency.',
@@ -40,6 +40,17 @@ const experiences = [
             'Implemented key features such as listing, payment by QR Code, and complaint handling in the app, which increased user satisfaction by 30% and accelerated the transaction process by 50%.',
             'Implemented a thermal printer, reducing invoicing time by 35-45% and improving accuracy by minimizing manual entry errors.',
             'Implemented an integrated Google Maps API to enhance navigation, increasing user satisfaction by 30-40% by providing accurate and reliable directions.',
+        ],
+    },
+    {
+        logo: ITDel,
+        company: 'Institut Teknologi Del',
+        position: 'Student Teaching Assistant Computer Architecture and Organization',
+        date: 'Aug 2022 - Des 2022',
+        description: [
+            'Facilitated the learning process of the Computer Architecture and Organization course by providing support and guidance to more than 61 students, increasing their understanding of the course material by 20%.',
+            'Collaborated with course lecturers in preparing and managing 2 credits of practicum classes, as well as accompanying students during practicum activities, which contributed to a 15% increase in student practicum performance.',
+            "Designed and implemented 1 weekly tutorial session to deepen student's understanding of the course material, as well as create an interactive and productive discussion environment, resulting in a 10% increase in student's average grade.",
         ],
     },
 ];
