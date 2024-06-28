@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/my-web-portofolio/static/css/main.83132aef.css",
-    "main.js": "/my-web-portofolio/static/js/main.6d02e65e.js",
+    "main.js": "/my-web-portofolio/static/js/main.f2342865.js",
     "static/js/453.a683488f.chunk.js": "/my-web-portofolio/static/js/453.a683488f.chunk.js",
     "static/media/project-img1.png": "/my-web-portofolio/static/media/project-img1.a297b1251845de41cc05.png",
     "static/media/color-sharp.png": "/my-web-portofolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/my-web-portofolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/Josua Siregar.pdf": "/my-web-portofolio/static/media/Josua Siregar.72cdfcf32906fe64cc89.pdf",
     "static/media/Institut Teknologi Del.png": "/my-web-portofolio/static/media/Institut Teknologi Del.628d1d1ed1695f96ed50.png",
     "static/media/project-img7.png": "/my-web-portofolio/static/media/project-img7.d84bc4693a71a04dd634.png",
     "static/media/project-img2.png": "/my-web-portofolio/static/media/project-img2.459859ad195648f727d1.png",
     "static/media/project-img3.png": "/my-web-portofolio/static/media/project-img3.90f8a01a2c571765e5c4.png",
-    "static/media/CV_Josua Siregar.pdf": "/my-web-portofolio/static/media/CV_Josua Siregar.56825871adfea0c8e195.pdf",
     "static/media/banner-bg.png": "/my-web-portofolio/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/josua-siregar.png": "/my-web-portofolio/static/media/josua-siregar.f03160031a5539723090.png",
     "static/media/CentraNo2-Bold.ttf": "/my-web-portofolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -31,11 +31,11 @@
     "static/media/nav-icon1.svg": "/my-web-portofolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/my-web-portofolio/index.html",
     "main.83132aef.css.map": "/my-web-portofolio/static/css/main.83132aef.css.map",
-    "main.6d02e65e.js.map": "/my-web-portofolio/static/js/main.6d02e65e.js.map",
+    "main.f2342865.js.map": "/my-web-portofolio/static/js/main.f2342865.js.map",
     "453.a683488f.chunk.js.map": "/my-web-portofolio/static/js/453.a683488f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83132aef.css",
-    "static/js/main.6d02e65e.js"
+    "static/js/main.f2342865.js"
   ]
 }
