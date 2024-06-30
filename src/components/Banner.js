@@ -9,7 +9,7 @@ import cvFile from "../assets/files/Josua Siregar.pdf";
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Backend Engineer", "Web Developer", "Mobile Developer"];
+    const toRotate = ["Backend Developer", "Web Developer", "Mobile Developer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -58,7 +58,7 @@ export const Banner = () => {
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className="tagline">Welcome to my Portofolio</span>
                                     <h1>{'Hi I\'m Josua Siregar'}<br /><span className="wrap"> {text}</span></h1>
-                                    <p> Results-oriented Back-End Engineer with a strong background in software development. Proficient in JavaScript (Node.js), PHP, Python, Go, Java (Spring), as well as ReactJS, Express JS, and Laravel frameworks. Experienced in optimizing database queries and improving application performance through a deep understanding of RESTful APIs and microservices. Committed to providing the best solutions and achieving top performance for organizational and project success.</p>
+                                    <p> Results-oriented Back-End Developer with a strong background in software development. Proficient in JavaScript (Node.js), PHP, Python, Go, Java (Spring), as well as ReactJS, Express JS, and Laravel frameworks. Experienced in optimizing database queries and improving application performance through a deep understanding of RESTful APIs and microservices. Committed to providing the best solutions and achieving top performance for organizational and project success.</p>
                                     {/* <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button> */}
                                     <button className="vvd"> Download CV
                                         <a href={cvFile} download>

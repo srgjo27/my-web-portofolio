@@ -8,7 +8,7 @@ const experiences = [
         position: 'Software Engineer Intership',
         date: 'Feb 2024 - Jul 2024',
         description: [
-            'Developed Flight Operation Super App using Dart programming language with Flutter and Firebase as a database, which resulted in a 20-30% increase in work efficiency.',
+            'Developed AIRMASTER Super App using Dart and Flutter, as well as Firebase, improving work efficiency by 30%.',
             'Implemented a cross-platform app for Android and iOS, achieving 100% compatibility between the two operating systems, allowing users to switch platforms without losing functionality.',
             'Clean-coded the application program code, reducing bugs by 30% before launch, which improved application stability and reduced post-launch maintenance costs.',
             'Implemented security best practices such as user authentication and strict access rules to protect sensitive information, increasing user data security by 50%.',
@@ -18,12 +18,13 @@ const experiences = [
     {
         logo: ITDel,
         company: 'Institut Teknologi Del',
-        position: 'Back End Engineer',
+        position: 'Back End Developer',
         date: 'Sep 2023 - Jul 2024',
         description: [
-            'Developed a front-end website using PHP with the Laravel framework, increasing development efficiency by 60%. And used MySQL database to store application data.',
-            'Implemented a machine learning algorithm model with Python, which improved product recommendation accuracy by 80%.',
-            'Built a REST API to connect the front end with machine learning, enabling seamless and responsive interface interaction and speeding up data exchange by 25%.',
+            'Developed a front-end using HTML, CSS, JavaScript, and PHP programming language with the help of the Laravel framework, incorporating AJAX for asynchronous data updates, improving development efficiency by 60%.',
+            'Using MySQL for database management.',
+            'Implemented the back-end with machine learning algorithms (Python), improving product recommendation accuracy by 80%.',
+            'Integrated REST API to connect the front-end and back-end, speeding up data exchange by 25%',
             'Conducted testing on ± 300 users to test website performance and constraints, identifying and fixing bugs before launch.',
             'Optimized and evaluated the product recommendation model using MAE and RMSE, resulting in an error value below 1, increasing user satisfaction by 40%.',
         ],
@@ -31,7 +32,7 @@ const experiences = [
     {
         logo: '',
         company: 'Puslit EGOV CENTER',
-        position: 'Software Engineer Intership',
+        position: 'Mobile Developer Intership',
         date: 'Sep 2023 - Dec 2023',
         description: [
             'Developed Retribusi Air Minum application with a user-friendly interface resulting in a 30% increase in work efficiency.',
