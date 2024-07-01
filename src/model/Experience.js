@@ -10,7 +10,7 @@ const experiences = [
         description: [
             'Developed AIRMASTER Super App using Dart and Flutter, as well as Firebase, improving work efficiency by 30%.',
             'Implemented a cross-platform app for Android and iOS, achieving 100% compatibility between the two operating systems, allowing users to switch platforms without losing functionality.',
-            'Clean-coded the application program code, reducing bugs by 30% before launch, which improved application stability and reduced post-launch maintenance costs.',
+            'Clean-coded the application program code, test using ZAP, reducing bugs by 30% before launch, which improved application stability and reduced post-launch maintenance costs.',
             'Implemented security best practices such as user authentication and strict access rules to protect sensitive information, increasing user data security by 50%.',
             'Integrated REST APIs to speed up data exchange by 25-30% between the app and the AirAsia system, which optimizes app performance and provides a more responsive user experience.',
         ],
@@ -27,6 +27,7 @@ const experiences = [
             'Integrated REST API to connect the front-end and back-end, speeding up data exchange by 25%',
             'Conducted testing on ± 300 users to test website performance and constraints, identifying and fixing bugs before launch.',
             'Optimized and evaluated the product recommendation model using MAE and RMSE, resulting in an error value below 1, increasing user satisfaction by 40%.',
+            'Using VPS for application deployment ensures optimal scalability and performance in handling high-user traffic.',
         ],
     },
     {
