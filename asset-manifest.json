@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-web-portofolio/static/css/main.83132aef.css",
-    "main.js": "/my-web-portofolio/static/js/main.f24b21ec.js",
+    "main.css": "/my-web-portofolio/static/css/main.4f5395d9.css",
+    "main.js": "/my-web-portofolio/static/js/main.40fe4009.js",
     "static/js/453.a683488f.chunk.js": "/my-web-portofolio/static/js/453.a683488f.chunk.js",
     "static/media/project-img1.png": "/my-web-portofolio/static/media/project-img1.a297b1251845de41cc05.png",
     "static/media/color-sharp.png": "/my-web-portofolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -12,7 +12,6 @@
     "static/media/project-img3.png": "/my-web-portofolio/static/media/project-img3.90f8a01a2c571765e5c4.png",
     "static/media/banner-bg.png": "/my-web-portofolio/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/josua-siregar.png": "/my-web-portofolio/static/media/josua-siregar.f03160031a5539723090.png",
-    "static/media/Josua Siregar.pdf": "/my-web-portofolio/static/media/Josua Siregar.975fd8f58b364970bece.pdf",
     "static/media/CentraNo2-Bold.ttf": "/my-web-portofolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/my-web-portofolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/my-web-portofolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -30,12 +29,12 @@
     "static/media/nav-icon4.svg": "/my-web-portofolio/static/media/nav-icon4.fa10bb0702d242a28274efd2e9da5242.svg",
     "static/media/nav-icon1.svg": "/my-web-portofolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/my-web-portofolio/index.html",
-    "main.83132aef.css.map": "/my-web-portofolio/static/css/main.83132aef.css.map",
-    "main.f24b21ec.js.map": "/my-web-portofolio/static/js/main.f24b21ec.js.map",
+    "main.4f5395d9.css.map": "/my-web-portofolio/static/css/main.4f5395d9.css.map",
+    "main.40fe4009.js.map": "/my-web-portofolio/static/js/main.40fe4009.js.map",
     "453.a683488f.chunk.js.map": "/my-web-portofolio/static/js/453.a683488f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83132aef.css",
-    "static/js/main.f24b21ec.js"
+    "static/css/main.4f5395d9.css",
+    "static/js/main.40fe4009.js"
   ]
 }
