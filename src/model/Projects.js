@@ -7,16 +7,16 @@ import projImg6 from '../assets/img/project-img6.jpeg';
 import projImg7 from '../assets/img/project-img7.png';
 import projImg8 from '../assets/img/project-img8.jpeg';
 
-const projects1 = [
+const mobile = [
     {
         title: "AIRMASTER",
         imgUrl: projImg8,
+        category: "Mobile",
         url: "",
         stack: [
             'flutter',
             'dart',
             'firebase',
-            'rest-api',
             'google-sheet',
             'camera',
             'signature',
@@ -28,22 +28,9 @@ const projects1 = [
         ],
     },
     {
-        title: "UD ANTHONY",
-        imgUrl: projImg7,
-        url: "https://ud-anthony.vpnstores.net/",
-        stack: [
-            'php',
-            'laravel',
-            'mysql',
-            'rest-api',
-            'python',
-            'flask',
-            'machine-learning',
-        ],
-    },
-    {
         title: "SIRAM",
         imgUrl: projImg4,
+        category: "Mobile",
         url: "",
         stack: [
             'flutter',
@@ -60,6 +47,7 @@ const projects1 = [
         title: "Delhub Mobile-Based Application",
         imgUrl: projImg5,
         url: "https://github.com/marloxxx/delhub",
+        category: "Mobile",
         stack: [
             'flutter',
             'dart',
@@ -72,6 +60,7 @@ const projects1 = [
     {
         title: "Ito Humbang",
         imgUrl: projImg6,
+        category: "Mobile",
         url: "",
         stack: [
             'flutter',
@@ -84,7 +73,22 @@ const projects1 = [
     }
 ]
 
-const projects2 = [
+const website = [
+    {
+        title: "UD ANTHONY",
+        imgUrl: projImg7,
+        url: "https://ud-anthony.vpnstores.net/",
+        category: "Website",
+        stack: [
+            'php',
+            'laravel',
+            'mysql',
+            'rest-api',
+            'python',
+            'flask',
+            'machine-learning',
+        ],
+    },
     {
         title: "Website  Pemandian Air Soda Taurutung",
         imgUrl: projImg1,
@@ -101,6 +105,7 @@ const projects2 = [
         title: "IT Del Canteen Website",
         imgUrl: projImg2,
         url: "https://github.com/srgjo27/Canteen-IT-Del-Website",
+        category: "Website",
         stack: [
             'laravel',
             'php',
@@ -114,6 +119,7 @@ const projects2 = [
         title: "LokerKu Website",
         imgUrl: projImg3,
         url: "https://github.com/srgjo27/LokerKu",
+        category: "Website",
         stack: [
             'laravel',
             'php',
@@ -125,4 +131,4 @@ const projects2 = [
     },
 ]
 
-export default { projects1, projects2 };
+export default { mobile, website };

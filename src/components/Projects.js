@@ -6,7 +6,7 @@ import 'animate.css';
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
-    const { projects1, projects2 } = project_model;
+    const { mobile, website } = project_model;
 
     return (
         <section className="project" id="projects">
@@ -18,25 +18,20 @@ export const Projects = () => {
                                 <div className={isVisible ? "animate__animated animate__bounce" : ""}>
                                     <h2>Projects</h2>
                                     <p>These skills have been applied in leading and collaborating on challenging projects, where I have not only improved my problem-solving and database management abilities but also produced innovative and cutting-edge solutions.</p>
-                                    <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                                    <Tab.Container id="projects-tabs" defaultActiveKey="mobile">
                                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                             <Nav.Item>
-                                                <Nav.Link eventKey="first">One</Nav.Link>
+                                                <Nav.Link eventKey="mobile">Mobile</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="second">Two</Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="third" disabled>
-                                                    Three
-                                                </Nav.Link>
+                                                <Nav.Link eventKey="website">Website</Nav.Link>
                                             </Nav.Item>
                                         </Nav>
                                         <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                                            <Tab.Pane eventKey="first">
+                                            <Tab.Pane eventKey="mobile">
                                                 <Row>
                                                     {
-                                                        projects1.map((project, index) => {
+                                                        mobile.map((project, index) => {
                                                             return (
                                                                 <ProjectCard key={index}{...project} />
                                                             )
@@ -44,19 +39,16 @@ export const Projects = () => {
                                                     }
                                                 </Row>
                                             </Tab.Pane>
-                                            <Tab.Pane eventKey="second">
+                                            <Tab.Pane eventKey="website">
                                                 <Row>
                                                     {
-                                                        projects2.map((project, index) => {
+                                                        website.map((project, index) => {
                                                             return (
                                                                 <ProjectCard key={index}{...project} />
                                                             )
                                                         })
                                                     }
                                                 </Row>
-                                            </Tab.Pane>
-                                            <Tab.Pane eventKey="third">
-                                                <p>Three</p>
                                             </Tab.Pane>
                                         </Tab.Content>
                                     </Tab.Container>

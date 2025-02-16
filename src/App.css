@@ -308,6 +308,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  margin-bottom: 20px;
 }
 
 .banner button {
@@ -335,7 +336,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner button:hover svg {
   margin-left: 25px;
-  color: #f01010;
 }
 
 .banner img {
@@ -498,12 +498,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 50%;
 }
 
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
-  border-radius: 0;
+  border-radius: 50px;
   padding: 17px 0;
   color: #fff;
   width: 100%;
@@ -521,6 +521,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   width: 0;
   height: 100%;
+  border-radius: 50px;
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   top: 0;
   left: 0;
@@ -551,17 +552,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 0 55px 55px 0;
 }
 
-.proj-card {
+.proj-card-mobile {
   display: grid;
   grid-template-areas:
     'image'
     'body';
-  grid-template-rows: 500px 250px 20px;
+  grid-template-rows: 500px 180px 15px;
   background: #1d1d1d;
   color: #fff;
   text-align: center;
   border-radius: 18px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   transition: 0.5s ease;
   cursor: pointer;
   margin: 30px;
@@ -569,14 +569,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transform: perspective(1000px);
 }
 
+.proj-card-website {
+  display: grid;
+  grid-template-areas:
+    'image'
+    'body';
+  grid-template-rows: 300px 200px 20px;
+  background: #1d1d1d;
+  color: #fff;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 20px;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
+
 .proj-body {
-  grid-area: 'body';
   transform: translateZ(30px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .proj-body span {
   display: block;
-  margin-bottom: 10px;
   color: rgb(red, green, blue);
   font-size: 16px;
   text-decoration: none;

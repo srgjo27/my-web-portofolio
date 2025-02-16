@@ -1,19 +1,19 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { ArrowRightCircle, FileEarmarkPdf } from "react-bootstrap-icons";
+import { FileEarmarkPdf } from "react-bootstrap-icons";
 import profileImg from "../assets/img/josua-siregar.png";
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
-import cvFile from "../assets/files/Josua Siregar.pdf";
+// import cvFile from "../assets/files/";
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Backend Developer", "Web Developer", "Mobile Developer"];
+    const toRotate = ["Full stack Developer", "Web Developer", "Mobile Developer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
-    const [index, setIndex] = useState(1);
+    const [, setIndex] = useState(1);
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -58,10 +58,15 @@ export const Banner = () => {
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className="tagline">Welcome to my Portofolio</span>
                                     <h1>{'Hi I\'m Josua Siregar'}<br /><span className="wrap"> {text}</span></h1>
-                                    <p> Results-oriented Back-End Developer with a strong background in software development. Proficient in JavaScript (Node.js), PHP, Python, Go, Java (Spring), as well as ReactJS, Express JS, and Laravel frameworks. Experienced in optimizing database queries and improving application performance through a deep understanding of RESTful APIs and microservices. Committed to providing the best solutions and achieving top performance for organizational and project success.</p>
-                                    {/* <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button> */}
+                                    <p> I am a results-oriented Full Stack Developer with a strong background in
+                                        software development and system architecture. I am proficient in JavaScript, PHP, Python,
+                                        Go, Java (Spring) and Dart (Flutter), with hands-on experience in RESTful APIs, microservices
+                                        and database optimization. During my academic and internship experiences, I have
+                                        developed scalable and high-performance frontend and backend solutions using frameworks
+                                        such as React, Nest, Django and Laravel. I am committed to delivering robust, efficient, and
+                                        secure systems to drive organizational and project success. </p>
                                     <button className="vvd"> Download CV
-                                        <a href={cvFile} download>
+                                        <a href='' download>
                                             <FileEarmarkPdf size={25} />
                                         </a>
                                     </button>
